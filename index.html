@@ -13,7 +13,7 @@
     <header class="header">
       <h1>Weather Dashboard</h1>
     </header>
-<!--Left Search Section-->
+<!--Left: Search Section-->
     <div class="container">
       <div class="row">
         <input id="city-input" type="text"/>
@@ -27,7 +27,20 @@
     </div>
     </div>
 
-    
+    <!--Right: Current Weather-->
+    <div class="card">
+      <header class="card-header">
+        <div id="city-name">City Name</div>
+      </header>
+      <div class="card-body" id="current-weather">
+        <div class="weather-conditions">
+          <div id="icon"></div>
+          <div>Temperature: <span id="temp"></span>&#176F</div>
+          <div>Wind Speed: <span id="wind"></span>MPH</div>
+          <div>Humidity: <span id="humidity"></span>%</div>
+        </div>
+      </div>
+    </div>
  
     
 
